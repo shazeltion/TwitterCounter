@@ -18,7 +18,6 @@ class StdOutListener(StreamListener):
 			global count
 			count += 1
 			print count
-			print data
 			return True
     def on_error(self, status):
 			print status
